@@ -10,7 +10,10 @@ jobs:
       - run:
           name: Greeting
           command: echo Hello, world.
-
+      - run:
+          name: Delay
+          command: sleep 1m
       - run:
           name: Print the Current Time
           command: date
+      
