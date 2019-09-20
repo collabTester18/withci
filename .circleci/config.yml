@@ -12,7 +12,7 @@ jobs:
           command: echo Hello, world.
       - run:
           name: Delay
-          command: sleep 1m
+          command: sleep 10m
       - run:
           name: Print the Current Time
           command: date
